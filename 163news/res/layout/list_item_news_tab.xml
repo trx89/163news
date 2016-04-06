@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:padding="5dp"
+    >
+    
+    <ImageView 
+        android:id="@+id/iv_news"
+        android:layout_height="65dp"
+        android:layout_width="100dp"
+        android:src ="@drawable/image_demo"
+        android:scaleType="fitXY"
+        android:background="#9e9e9e"
+        android:padding="1dp"
+        />
+    
+    	<TextView 
+            android:id="@+id/tv_text"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@id/iv_news"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:text="我的角色奋力将房屋交付网络附加微积分阿胶方式可分为蜂王浆王菲"
+            android:maxLines="2"
+            />
+        
+        <TextView 
+            android:id="@+id/tv_date"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_alignLeft="@id/tv_text"
+            android:textSize="16sp"
+            android:textColor="#a000"
+            android:text="1989-10-18 13:00"
+            android:layout_alignParentBottom="true"
+            />
+        
+
+</RelativeLayout>
